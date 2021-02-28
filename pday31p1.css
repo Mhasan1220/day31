@@ -1,0 +1,334 @@
+body,p,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Work Sans', sans-serif;
+}
+.dropdown-dd ul{
+    padding: 0;
+    border: none;
+}
+.dropdown-dd ul li {
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+.dropdown-dd ul li  a{
+    display: block;
+    padding: 10px 20px;
+}
+.header-logo img{
+    width: 45px;
+    height: 45px;
+}
+.header-logo h3 {
+    color: #555555;
+    font-size: 25px;
+    margin-top: 7px;
+}
+/* DEFAULT SECTION */
+.default-btn {
+    padding: 7px 28px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.default-bg{
+    background-color: #f7f9ff;
+}
+/* slider-section */
+.slider-section{
+    background: url(https://i.ibb.co/Rg0PmrV/mbr-10.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.5);
+}
+.slider-btn {
+    margin-top: 32px;
+    text-align: left;
+}
+.slider-btn .slider-appp {
+    padding: 17px 103px;
+    border-radius: 8px;
+    background-color: #5ba533;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+}
+.slider-btn .slider-appp:hover{
+    background-color:#fff ;
+    color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df; 
+}
+.email-form{}
+.email-form .email-sub {
+    margin-top: 9px;
+    padding: 16px 25px;
+    width: 350px;
+    margin-left: 63px;
+    font-size: 20px;
+}
+.email-sub:focus{
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;   
+}
+ /* number section  */
+ .number-main {
+    font-size: 55px;
+    font-weight: 500;
+}
+/* Improve Health Section */
+.image-sizer{
+    height: 480px;
+}
+/*  */
+.extra-mrgn{
+    margin-bottom: 150px;
+}
+.image-height{
+    height: 250px;
+}
+.shadow-learn{
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.shadow-learn:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+.image-hover{
+    position: relative;
+}
+.image-hover:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 165, 233, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in-out;
+}
+.image-hover:hover::before{
+    opacity: 1;
+    visibility: visible;
+}
+.mbtr{
+    margin-bottom: 100px;
+}
+/*  */
+.hght-gvn {
+    height: 610px;
+}
+.test-div {
+    padding: 60px 48px;
+}
+.test-div ul li {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+.test-div ul .first-lst:before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 20px;
+    color: #6278df;
+    font-size: 26px;
+}
+.test-div ul .second-lst:before {
+    content: "\f00d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 20px;
+    color: #6278df;
+    font-size: 26px;
+}
+.inner-content {
+    width: 90%;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.inner-content:hover .submain-btn{
+    background-color: #6278df;
+    color: #fff;
+}
+.btn-extend {
+    color: #6278df;
+    font-size: 20px;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow:none;
+}
+.submain-btn {
+    background-color: #fff;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    margin-top: 50px;
+    width: 100%;
+    height: 59px;
+    font-weight: 600;
+    line-height: 46px;
+    font-size: 21px;
+    transition: 0.5s ease-in-out;
+}
+.submain-btn:hover{
+    background-color: #000  !important;
+}
+/* user feedback */
+.user-bio{}
+.user-bio img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+.user-feedback span i {
+    color: #e4e3e39e;
+}
+.user-p {
+    width: 61%;
+    margin: auto;
+}
+.user-lead {
+    font-size: 20px;
+    font-weight: 300;
+    color: #333;
+}
+/* Team History */
+.team-title {
+    font-size: 45px;
+    font-weight: 400;
+}
+.wdth{
+    width: 100% !important;
+}
+.mrgin-extra {
+    margin-bottom: 160px;
+}
+.submain-btn-two {
+    background-color: #fff;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    margin-top: 26px;
+    width: 40%;
+    height: 41px;
+    font-weight: 600;
+    line-height: 21px;
+    font-size: 17px;
+    transition: 0.3s ease-in-out;
+}
+.submain-btn-two:hover{
+    background-color: #444;
+    color: #fff;
+}
+.card-custom {
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+    width: 100% !important;
+    padding: 0px 10px;
+}
+.card-custom .card-image-custom {
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+    left: 13px;
+    top: -70px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+.card-custom:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+/* form section */
+.shadow-form{
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.eform-sizing {
+    width: 90%;
+    margin: auto;
+    border: 1px solid #e4e4e4;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.eform-sizing-inpt{}
+
+.form-control {
+    padding: 1.375rem .75rem;
+    border-radius: 0.36rem;
+    border: 1px solid #e4e4e4;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.form-control:focus {
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+.form-wdth {
+    width: 89%;
+    margin: auto;
+}
+.form-wer {
+    width: 45%;
+    margin: auto;
+    margin-right: 0;
+}
+.form-werrr {
+    width: 45%;
+    margin: auto;
+    margin-left: 0;
+}
+.message-ctrl {
+    width: 90%;
+    margin: auto;
+}
+.from-contact-btn {
+    background-color: #6278df;
+    font-weight: 600;
+    width: 194px;
+    height: 71px;
+    line-height: 54px;
+    transition: 0.3s ease-in-out;
+}
+.from-contact-btn:hover {
+    background-color: white;
+    color: #6278df;
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+/* Watch your Health */
+.health-p {
+    font-size: 25px;
+    font-weight: 300;
+}
+.health-heading {
+    font-size: 48px;
+    width: 51%;
+    margin: auto;
+    font-weight: 400;
+}
+.health-btn{}
+.health-btn .btn-first {
+    color: #5ba533;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid #5ba533;
+    padding: 15px 40px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.health-btn .btn-first:hover{
+    background-color: #5ba533;
+    color: #fff;
+    box-shadow: 3px 3px 27px -3px #5ba533;
+}
+.health-btn .btn-second{
+    color: #fff;
+    background-color: #5ba533;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid #5ba533;
+    padding: 18px 40px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 27px -3px #5ba533;
+}
+.health-btn .btn-second:hover{
+    background-color: #000;
+}
+.size-fimage {
+    width: 45%;
+}
+.footer-h:hover{
+    color:#111 !important;
+}
